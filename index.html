@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Etch A Scatch</h1>
+    </div>
+    <div class="main">
+      <div class="controls-nav">
+        <div class="controls">
+          <div class="pen btn" id="pen">
+            Pick Pen Color
+            <input class="pen-color" type="color" />
+          </div>
+
+          <div class="rainbow btn" id="rainbow">rainbow color</div>
+
+          <div class="border btn" id="border">
+            Random Border Color
+            <input class="inputs" id="border-color" type="color" />
+          </div>
+
+          <div class="random btn" id="random">Random Pen</div>
+
+          <div class="gray btn" id="clear">Gray Scale</div>
+
+          <div class="clear btn" id="clear">Clear</div>
+
+          <div class="grid-input btn" id="resize">
+            grid
+            <input type="range" />
+          </div>
+        </div>
+      </div>
+      <div class="container"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
